@@ -1,1 +1,1 @@
-vim.opt.guifont = { "BlexMono Nerd Font:h17" }
+vim.opt.guifont = { "Iosevka:h17" }

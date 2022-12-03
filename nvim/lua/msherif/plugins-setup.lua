@@ -25,7 +25,7 @@ return require("packer").startup(function(use)
 	use("bluz71/vim-moonfly-colors")
 	use("nvim-tree/nvim-tree.lua")
 	use("kyazdani42/nvim-web-devicons")
-
+	use("EdenEast/nightfox.nvim")
 	-- status line
 	use("nvim-lualine/lualine.nvim")
 
@@ -48,6 +48,11 @@ return require("packer").startup(function(use)
 	use("jose-elias-alvarez/typescript.nvim") -- additional functionality for typescript server (e.g. rename file & update imports)
 	use({ "glepnir/lspsaga.nvim", branch = "main" }) -- enhanced lsp uis
 	use("onsails/lspkind.nvim") -- vs-code like icons for autocompletion
+
+	-- snippets
+	use("L3MON4D3/LuaSnip") -- snippet engine
+	use("saadparwaiz1/cmp_luasnip") -- for autocompletion
+	use("rafamadriz/friendly-snippets") -- useful snippets
 
 	-- formatting & linting
 	use("jose-elias-alvarez/null-ls.nvim") -- configure formatters & linters
