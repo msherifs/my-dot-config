@@ -1,6 +1,6 @@
 local setup, nvimtree = pcall(require, "nvim-tree")
 if not setup then
-  return
+	return
 end
 
 -- recommended settings
@@ -22,6 +22,9 @@ nvimtree.setup({
 			},
 		},
 	},
+	filters = {
+		dotfiles = false,
+	},
 	-- disable window_picker for
 	-- explorer to work well with
 	-- window splits
@@ -33,4 +36,3 @@ nvimtree.setup({
 		},
 	},
 })
-

@@ -22,10 +22,13 @@ vim.cmd([[
 
 return require("packer").startup(function(use)
 	use("wbthomason/packer.nvim")
-	use("bluz71/vim-moonfly-colors")
+	use("bluz71/vim-nightfly-colors")
 	use("nvim-tree/nvim-tree.lua")
 	use("kyazdani42/nvim-web-devicons")
 	use("EdenEast/nightfox.nvim")
+	use("folke/tokyonight.nvim")
+	use("rose-pine/neovim")
+	use("sainnhe/everforest")
 	-- status line
 	use("nvim-lualine/lualine.nvim")
 	use({ "projekt0n/github-nvim-theme" })
