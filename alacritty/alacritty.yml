@@ -1,8 +1,8 @@
 font:
   normal:
     # family: CaskaydiaCove Nerd Font
-    family: VictorMono Nerd Font 
-    style: Regular
+    family: FiraCode Nerd Font 
+    style: Retina
 
   # Bold font face
     bold:
@@ -37,13 +37,13 @@ font:
   # The `style` can be specified to pick a specific face.
 
   # Point size
-  size: 15.0
+  size: 14.0
   offset:
     x: 0
-    y: 0
+    y: 10
   glyph_offset:
     x: 0
-    y: 0
+    y: 5
 # Moonfly Theme
 
 draw_bold_text_with_bright_colors: true
