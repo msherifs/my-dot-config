@@ -5,7 +5,7 @@ if not status then
 end
 
 -- get lualine nightfly theme
-local lualine_theme = require("lualine.themes.everforest")
+local lualine_theme = require("lualine.themes.kanagawa")
 
 -- new colors for theme
 local new_colors = {
@@ -31,6 +31,6 @@ lualine_theme.command = {
 -- configure lualine with modified theme
 lualine.setup({
 	options = {
-		theme = "everforest",
+		theme = "kanagawa",
 	},
 })

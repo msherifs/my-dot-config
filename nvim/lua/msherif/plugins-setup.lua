@@ -29,6 +29,8 @@ return require("packer").startup(function(use)
 	use("folke/tokyonight.nvim")
 	use("rose-pine/neovim")
 	use("sainnhe/everforest")
+	use("rebelot/kanagawa.nvim")
+	use("Yazeed1s/minimal.nvim")
 	-- status line
 	use("nvim-lualine/lualine.nvim")
 	use({ "projekt0n/github-nvim-theme" })
