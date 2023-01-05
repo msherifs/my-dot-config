@@ -2,4 +2,5 @@
 
 cp -r ~/.config/nvim/ ./nvim/
 cp -r ~/.config/alacritty/ ./alacritty/
+cp ~/.tmux.conf .
 
