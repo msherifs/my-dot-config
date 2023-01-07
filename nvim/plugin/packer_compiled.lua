@@ -99,20 +99,10 @@ _G.packer_plugins = {
     path = "/Users/mohamedsherif/.local/share/nvim/site/pack/packer/start/cmp_luasnip",
     url = "https://github.com/saadparwaiz1/cmp_luasnip"
   },
-  everforest = {
-    loaded = true,
-    path = "/Users/mohamedsherif/.local/share/nvim/site/pack/packer/start/everforest",
-    url = "https://github.com/sainnhe/everforest"
-  },
   ["friendly-snippets"] = {
     loaded = true,
     path = "/Users/mohamedsherif/.local/share/nvim/site/pack/packer/start/friendly-snippets",
     url = "https://github.com/rafamadriz/friendly-snippets"
-  },
-  ["github-nvim-theme"] = {
-    loaded = true,
-    path = "/Users/mohamedsherif/.local/share/nvim/site/pack/packer/start/github-nvim-theme",
-    url = "https://github.com/projekt0n/github-nvim-theme"
   },
   ["gitsigns.nvim"] = {
     loaded = true,
@@ -154,20 +144,10 @@ _G.packer_plugins = {
     path = "/Users/mohamedsherif/.local/share/nvim/site/pack/packer/start/mason.nvim",
     url = "https://github.com/williamboman/mason.nvim"
   },
-  ["minimal.nvim"] = {
-    loaded = true,
-    path = "/Users/mohamedsherif/.local/share/nvim/site/pack/packer/start/minimal.nvim",
-    url = "https://github.com/Yazeed1s/minimal.nvim"
-  },
   neovim = {
     loaded = true,
     path = "/Users/mohamedsherif/.local/share/nvim/site/pack/packer/start/neovim",
     url = "https://github.com/rose-pine/neovim"
-  },
-  ["nightfox.nvim"] = {
-    loaded = true,
-    path = "/Users/mohamedsherif/.local/share/nvim/site/pack/packer/start/nightfox.nvim",
-    url = "https://github.com/EdenEast/nightfox.nvim"
   },
   ["null-ls.nvim"] = {
     loaded = true,
@@ -231,20 +211,10 @@ _G.packer_plugins = {
     path = "/Users/mohamedsherif/.local/share/nvim/site/pack/packer/start/telescope.nvim",
     url = "https://github.com/nvim-telescope/telescope.nvim"
   },
-  ["tokyonight.nvim"] = {
-    loaded = true,
-    path = "/Users/mohamedsherif/.local/share/nvim/site/pack/packer/start/tokyonight.nvim",
-    url = "https://github.com/folke/tokyonight.nvim"
-  },
   ["typescript.nvim"] = {
     loaded = true,
     path = "/Users/mohamedsherif/.local/share/nvim/site/pack/packer/start/typescript.nvim",
     url = "https://github.com/jose-elias-alvarez/typescript.nvim"
-  },
-  ["vim-nightfly-colors"] = {
-    loaded = true,
-    path = "/Users/mohamedsherif/.local/share/nvim/site/pack/packer/start/vim-nightfly-colors",
-    url = "https://github.com/bluz71/vim-nightfly-colors"
   }
 }
 

@@ -22,18 +22,20 @@ vim.cmd([[
 
 return require("packer").startup(function(use)
 	use("wbthomason/packer.nvim")
-	use("bluz71/vim-nightfly-colors")
 	use("nvim-tree/nvim-tree.lua")
 	use("kyazdani42/nvim-web-devicons")
-	use("EdenEast/nightfox.nvim")
-	use("folke/tokyonight.nvim")
+
+	--  Themes
+	--	use("EdenEast/nightfox.nvim")
+	--	use("bluz71/vim-nightfly-colors")
+	--	use("folke/tokyonight.nvim")
 	use("rose-pine/neovim")
-	use("sainnhe/everforest")
+	-- 	use("sainnhe/everforest")
 	use("rebelot/kanagawa.nvim")
-	use("Yazeed1s/minimal.nvim")
+
 	-- status line
 	use("nvim-lualine/lualine.nvim")
-	use({ "projekt0n/github-nvim-theme" })
+	--	use({ "projekt0n/github-nvim-theme" })
 	-- fuzzy finding w/ telescope
 	use({ "nvim-telescope/telescope-fzf-native.nvim", run = "make" }) -- dependency for better sorting performance
 	use({ "nvim-telescope/telescope.nvim", branch = "0.1.x", requires = { { "nvim-lua/plenary.nvim" } } }) -- fuzzy finder
