@@ -29,9 +29,10 @@ return require("packer").startup(function(use)
 	--	use("EdenEast/nightfox.nvim")
 	--	use("bluz71/vim-nightfly-colors")
 	--	use("folke/tokyonight.nvim")
-	use("rose-pine/neovim")
-	-- 	use("sainnhe/everforest")
-	use("rebelot/kanagawa.nvim")
+	-- use("rose-pine/neovim")
+	use("sainnhe/everforest")
+	--use("rebelot/kanagawa.nvim")
+	use("NLKNguyen/papercolor-theme")
 
 	-- status line
 	use("nvim-lualine/lualine.nvim")
