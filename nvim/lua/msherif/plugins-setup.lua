@@ -33,7 +33,7 @@ return require("packer").startup(function(use)
 	use("sainnhe/everforest")
 	--use("rebelot/kanagawa.nvim")
 	use("NLKNguyen/papercolor-theme")
-
+	use({ "embark-theme/vim", as = "embark" })
 	-- status line
 	use("nvim-lualine/lualine.nvim")
 	--	use({ "projekt0n/github-nvim-theme" })
