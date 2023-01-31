@@ -1,22 +1,22 @@
 font:
   normal:
-    # family: CaskaydiaCove Nerd Font
-    family: Iosevka Nerd Font 
-    style: Regular 
+    #family: CaskaydiaCove Nerd Font
+    family: BlexMono Nerd Font
+    style: Text
 
-  # Bold font face
+    # Bold font face
     bold:
-  # Font family
-  # If the bold family is not specified, it will fall back to the
-  # value specified for the normal font.
-  #family: monospace
+      # Font family
+      # If the bold family is not specified, it will fall back to the
+      # value specified for the normal font.
+      #family: monospace
 
-  # The `style` can be specified to pick a specific face.
-      style: SemiBold
+      # The `style` can be specified to pick a specific face.
+      style: Medium 
 
   # Italic font face
   italic:
-    style: Text Italic
+    style: Italic
   # Font family
   #
   # If the italic family is not specified, it will fall back to the
@@ -27,7 +27,7 @@ font:
 
   # Bold italic font face
   bold_italic:
-    style: SemiBold Italic
+    style: Medium Italic
   # Font family
   #
   # If the bold italic family is not specified, it will fall back to the
@@ -37,56 +37,97 @@ font:
   # The `style` can be specified to pick a specific face.
 
   # Point size
-  size: 15.0
+  size: 14.0
   offset:
     x: 0
-    y: 14
+    y: 12
   glyph_offset:
     x: 0
-    y: 7
+    y: 6
+
 # Moonfly Theme
 
 draw_bold_text_with_bright_colors: true
 
-colors:
-  primary:
-    background: "0x191724"
-    foreground: "0xe0def4"
-  cursor:
-    text: "0xe0def4"
-    cursor: "0x524f67"
-  vi_mode_cursor:
-    text: "0xe0def4"
-    cursor: "0x524f67"
-  line_indicator:
-    foreground: None
-    background: None
-  selection:
-    text: "0xe0def4"
-    background: "0x403d52"
-  normal:
-    black: "0x26233a"
-    red: "0xeb6f92"
-    green: "0x31748f"
-    yellow: "0xf6c177"
-    blue: "0x9ccfd8"
-    magenta: "0xc4a7e7"
-    cyan: "0xebbcba"
-    white: "0xe0def4"
-  bright:
-    black: "0x6e6a86"
-    red: "0xeb6f92"
-    green: "0x31748f"
-    yellow: "0xf6c177"
-    blue: "0x9ccfd8"
-    magenta: "0xc4a7e7"
-    cyan: "0xebbcba"
-    white: "0xe0def4"
-  hints:
-    start:
-      foreground: "#908caa"
-      background: "#1f1d2e"
-    end:
-      foreground: "#6e6a86"
-      background: "#1f1d2e"
+env:
+  TERM: xterm-256color
 
+colors:
+    # Default colors
+    primary:
+        background: "#303446" # base
+        foreground: "#C6D0F5" # text
+        # Bright and dim foreground colors
+        dim_foreground: "#C6D0F5" # text
+        bright_foreground: "#C6D0F5" # text
+
+    # Cursor colors
+    cursor:
+        text: "#303446" # base
+        cursor: "#F2D5CF" # rosewater
+    vi_mode_cursor:
+        text: "#303446" # base
+        cursor: "#BABBF1" # lavender
+
+    # Search colors
+    search:
+        matches:
+            foreground: "#303446" # base
+            background: "#A5ADCE" # subtext0
+        focused_match:
+            foreground: "#303446" # base
+            background: "#A6D189" # green
+        footer_bar:
+            foreground: "#303446" # base
+            background: "#A5ADCE" # subtext0
+
+    # Keyboard regex hints
+    hints:
+        start:
+            foreground: "#303446" # base
+            background: "#E5C890" # yellow
+        end:
+            foreground: "#303446" # base
+            background: "#A5ADCE" # subtext0
+
+    # Selection colors
+    selection:
+        text: "#303446" # base
+        background: "#F2D5CF" # rosewater
+
+    # Normal colors
+    normal:
+        black: "#51576D" # surface1
+        red: "#E78284" # red
+        green: "#A6D189" # green
+        yellow: "#E5C890" # yellow
+        blue: "#8CAAEE" # blue
+        magenta: "#F4B8E4" # pink
+        cyan: "#81C8BE" # teal
+        white: "#B5BFE2" # subtext1
+
+    # Bright colors
+    bright:
+        black: "#626880" # surface2
+        red: "#E78284" # red
+        green: "#A6D189" # green
+        yellow: "#E5C890" # yellow
+        blue: "#8CAAEE" # blue
+        magenta: "#F4B8E4" # pink
+        cyan: "#81C8BE" # teal
+        white: "#A5ADCE" # subtext0
+
+    # Dim colors
+    dim:
+        black: "#51576D" # surface1
+        red: "#E78284" # red
+        green: "#A6D189" # green
+        yellow: "#E5C890" # yellow
+        blue: "#8CAAEE" # blue
+        magenta: "#F4B8E4" # pink
+        cyan: "#81C8BE" # teal
+        white: "#B5BFE2" # subtext1
+
+    indexed_colors:
+        - { index: 16, color: "#EF9F76" }
+        - { index: 17, color: "#F2D5CF" }
