@@ -1,1 +1,1 @@
-local status, _ = pcall(vim.cmd, "colorscheme catppuccin-macchiato")
+local status, _ = pcall(vim.cmd, "colorscheme catppuccin-mocha")
