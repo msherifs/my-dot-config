@@ -1,9 +1,4 @@
-local status, harpoon = pcall(require, "harpoon")
-if not status then
-	return
-end
-
-local mark = require("harpoon.mark") 
+local mark = require("harpoon.mark")
 local ui = require("harpoon.ui")
 
 local keymap = vim.keymap

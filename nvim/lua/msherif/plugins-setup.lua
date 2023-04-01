@@ -35,6 +35,7 @@ return require("packer").startup(function(use)
 
 	--  Themes
   use({ "catppuccin/nvim", as = "catppuccin" })
+  use({ "sainnhe/gruvbox-material" })
   -- use ("EdenEast/nightfox.nvim")
 	-- status line
 	use("nvim-lualine/lualine.nvim")
@@ -66,6 +67,7 @@ return require("packer").startup(function(use)
 			{ "rafamadriz/friendly-snippets" }, -- Optional
 		},
 	})
+  use({ "jose-elias-alvarez/null-ls.nvim"})
 
   -- Harpoon
   use("theprimeagen/harpoon")

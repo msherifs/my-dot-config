@@ -119,6 +119,11 @@ _G.packer_plugins = {
     path = "/Users/mohamedsherif/.local/share/nvim/site/pack/packer/start/gitsigns.nvim",
     url = "https://github.com/lewis6991/gitsigns.nvim"
   },
+  ["gruvbox-material"] = {
+    loaded = true,
+    path = "/Users/mohamedsherif/.local/share/nvim/site/pack/packer/start/gruvbox-material",
+    url = "https://github.com/sainnhe/gruvbox-material"
+  },
   harpoon = {
     loaded = true,
     path = "/Users/mohamedsherif/.local/share/nvim/site/pack/packer/start/harpoon",
@@ -158,6 +163,11 @@ _G.packer_plugins = {
     loaded = true,
     path = "/Users/mohamedsherif/.local/share/nvim/site/pack/packer/start/nui.nvim",
     url = "https://github.com/MunifTanjim/nui.nvim"
+  },
+  ["null-ls.nvim"] = {
+    loaded = true,
+    path = "/Users/mohamedsherif/.local/share/nvim/site/pack/packer/start/null-ls.nvim",
+    url = "https://github.com/jose-elias-alvarez/null-ls.nvim"
   },
   ["nvim-autopairs"] = {
     loaded = true,
