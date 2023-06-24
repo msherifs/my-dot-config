@@ -1,4 +1,5 @@
 local lsp = require("lsp-zero")
+local typescript = require("typescript")
 
 lsp.preset('recommended')
 
@@ -14,6 +15,8 @@ lsp.ensure_installed({
   "tailwindcss",
   "prismals"
 })
+
+lsp.nvim_workspace()
 
 local keymap = vim.keymap -- for conciseness
 
@@ -42,13 +45,24 @@ local on_attach = function(client, bufnr)
 		keymap.set("n", "<leader>rf", ":TypescriptRenameFile<CR>") -- rename file and update imports
 		keymap.set("n", "<leader>oi", ":TypescriptOrganizeImports<CR>") -- organize imports (not in youtube nvim video)
 		keymap.set("n", "<leader>ru", ":TypescriptRemoveUnused<CR>") -- remove unused variables (not in youtube nvim video)
-    keymap.set("n", "<leader>gs", ":TypescriptGoToSourceDefinition<CR>") -- Go to source def
+    keymap.set("n", "<leader>gd", ":TypescriptGoToSourceDefinition<CR>") -- Go to source def
 	end
 end
 
 lsp.on_attach = on_attach
 
 lsp.setup()
+
+typescript.setup({
+    disable_commands = false, -- prevent the plugin from creating Vim commands
+    debug = false, -- enable debug logging for commands
+    go_to_source_definition = {
+        fallback = true, -- fall back to standard LSP definition on failure
+    },
+    server = { -- pass options to lspconfig's setup method
+        on_attach = on_attach,
+    },
+})
 
 --[[
 local capabilities = require("cmp_nvim_lsp").default_capabilities()

@@ -75,6 +75,9 @@ return require("packer").startup(function(use)
 			-- Snippets
 			{ "L3MON4D3/LuaSnip" }, -- Required
 			{ "rafamadriz/friendly-snippets" }, -- Optional
+
+    	-- configuring lsp servers
+	    use("jose-elias-alvarez/typescript.nvim") -- additional functionality for typescript server (e.g. rename file & update imports)
 		},
 	})
   use({ "jose-elias-alvarez/null-ls.nvim"})
@@ -82,8 +85,6 @@ return require("packer").startup(function(use)
   -- Harpoon
   use("theprimeagen/harpoon")
 
-	-- configuring lsp servers
-	use("jose-elias-alvarez/typescript.nvim") -- additional functionality for typescript server (e.g. rename file & update imports)
 	use("onsails/lspkind.nvim") -- vs-code like icons for autocompletion
 
 	-- treesitter configuration
