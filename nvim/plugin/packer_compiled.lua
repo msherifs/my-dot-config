@@ -109,6 +109,11 @@ _G.packer_plugins = {
     path = "/Users/mohamedsherif/.local/share/nvim/site/pack/packer/start/cmp_luasnip",
     url = "https://github.com/saadparwaiz1/cmp_luasnip"
   },
+  ["copilot.vim"] = {
+    loaded = true,
+    path = "/Users/mohamedsherif/.local/share/nvim/site/pack/packer/start/copilot.vim",
+    url = "https://github.com/github/copilot.vim"
+  },
   ["friendly-snippets"] = {
     loaded = true,
     path = "/Users/mohamedsherif/.local/share/nvim/site/pack/packer/start/friendly-snippets",
@@ -118,11 +123,6 @@ _G.packer_plugins = {
     loaded = true,
     path = "/Users/mohamedsherif/.local/share/nvim/site/pack/packer/start/gitsigns.nvim",
     url = "https://github.com/lewis6991/gitsigns.nvim"
-  },
-  ["gruvbox-material"] = {
-    loaded = true,
-    path = "/Users/mohamedsherif/.local/share/nvim/site/pack/packer/start/gruvbox-material",
-    url = "https://github.com/sainnhe/gruvbox-material"
   },
   harpoon = {
     loaded = true,
@@ -221,6 +221,11 @@ _G.packer_plugins = {
     loaded = true,
     path = "/Users/mohamedsherif/.local/share/nvim/site/pack/packer/start/poimandres.nvim",
     url = "https://github.com/olivercederborg/poimandres.nvim"
+  },
+  ["rose-pine"] = {
+    loaded = true,
+    path = "/Users/mohamedsherif/.local/share/nvim/site/pack/packer/start/rose-pine",
+    url = "https://github.com/rose-pine/neovim"
   },
   ["telescope-fzf-native.nvim"] = {
     loaded = true,
