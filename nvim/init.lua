@@ -131,13 +131,14 @@ require('lazy').setup({
       end,
     },
   },
-
-  -- RosePine theme
+  
+  -- Catpuccin theme
   {
-    'rose-pine/neovim',
-    name = 'rose-pine',
+    "catppuccin/nvim",
+    name = "catppuccin",
+    priority = 1000,
     init = function ()
-      vim.cmd("colorscheme rose-pine")
+      vim.cmd("colorscheme catppuccin-mocha")
     end,
   },
   
@@ -199,11 +200,22 @@ require('lazy').setup({
     build = ':TSUpdate',
   },
 
+  -- Neo Tree
+  {
+    "nvim-neo-tree/neo-tree.nvim",
+    branch = "v3.x",
+    dependencies = {
+      "nvim-lua/plenary.nvim",
+      "nvim-tree/nvim-web-devicons", -- not strictly required, but recommended
+      "MunifTanjim/nui.nvim",
+    }
+  },
+
   -- NOTE: Next Step on Your Neovim Journey: Add/Configure additional "plugins" for kickstart
   --       These are some example plugins that I've included in the kickstart repository.
   --       Uncomment any of the lines below to enable them.
-  -- require 'kickstart.plugins.autoformat',
-  -- require 'kickstart.plugins.debug',
+  require 'kickstart.plugins.autoformat',
+  require 'kickstart.plugins.debug',
 
   -- NOTE: The import below can automatically add your own plugins, configuration, etc from `lua/custom/plugins/*.lua`
   --    You can use this folder to prevent any conflicts with this init.lua if you're interested in keeping
@@ -256,6 +268,8 @@ vim.o.completeopt = 'menuone,noselect'
 vim.o.termguicolors = true
 -- Relative line numbers
 vim.opt.relativenumber = true
+
+vim.opt.tabstop = 4
 -- [[ Basic Keymaps ]]
 
 -- Keymaps for better default experience
