@@ -1,6 +1,6 @@
 #! /bin/bash
 
 cp -r ./nvim/ ~/.config/nvim/
-cp -r ./alacritty/ ~/.config/alacritty/
+cp -r ./wezterm/ ~/.config/wezterm/
 cp .tmux.conf ~/
 
