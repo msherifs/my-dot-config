@@ -6,4 +6,5 @@ rm -rf ./wezterm/
 cp -r ~/.config/nvim/ ./nvim/
 cp -r ~/.config/wezterm/ ./wezterm/
 cp ~/.tmux.conf .
+cp ~/.config/starship.toml .
 

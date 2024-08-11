@@ -10,6 +10,7 @@ return {
 				typescript = { { "biome", "prettier" } },
 				lua = { "stylua" },
 				go = { "gofmt" },
+				elixir = { "mix" },
 			},
 			format_on_save = {
 				lsp_fallback = true,
