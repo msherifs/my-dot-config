@@ -29,13 +29,26 @@
 -- 		vim.cmd("colorscheme catppuccin")
 -- 	end,
 -- }
+--
+-- return {
+-- 	"folke/tokyonight.nvim",
+-- 	lazy = false,
+-- 	priority = 1000,
+-- 	opts = {},
+-- 	config = function()
+-- 		vim.cmd("colorscheme tokyonight-storm")
+-- 	end,
+-- }
 
 return {
-	"folke/tokyonight.nvim",
+	"maxmx03/solarized.nvim",
 	lazy = false,
 	priority = 1000,
 	opts = {},
-	config = function()
-		vim.cmd("colorscheme tokyonight-storm")
+	config = function(_, opts)
+		vim.o.termguicolors = true
+		vim.o.background = "dark"
+		require("solarized").setup(opts)
+		vim.cmd.colorscheme("solarized")
 	end,
 }
