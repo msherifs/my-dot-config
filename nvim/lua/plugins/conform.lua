@@ -6,8 +6,8 @@ return {
 
 		conform.setup({
 			formatters_by_ft = {
-				javascript = { { "biome", "prettier" } },
-				typescript = { { "biome", "prettier" } },
+				javascript = { "biome" },
+				typescript = { "biome" },
 				lua = { "stylua" },
 				go = { "gofmt" },
 				elixir = { "mix" },
