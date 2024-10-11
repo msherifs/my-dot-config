@@ -28,6 +28,12 @@ config.font = wezterm.font({
 
 config.font_size = 12
 config.line_height = 1.3
+-- Make the window transparent
+config.window_background_opacity = 0.8
+config.macos_window_background_blur = 20
+
+-- Blur the background (if your OS supports it)
+-- config.window_background_blur = 20
 
 -- and finally, return the configuration to wezterm
 return config
