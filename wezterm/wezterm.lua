@@ -10,12 +10,13 @@ config.initial_cols = 120
 
 -- For example, changing the color scheme:
 config.color_scheme = "Catppuccin Mocha"
-config.window_background_opacity = 1
+config.enable_tab_bar = false
 
-config.font = wezterm.font({
-	family = "Maple Mono NF",
-	harfbuzz_features = { "ss01", "ss03", "zero" },
-})
+--
+-- config.font = wezterm.font({
+-- 	family = "Maple Mono NF",
+-- 	harfbuzz_features = { "ss01", "ss03", "zero" },
+-- })
 
 -- config.font = wezterm.font({
 -- 	family = "JetBrainsMono Nerd Font",
@@ -26,11 +27,15 @@ config.font = wezterm.font({
 -- 	family = "UbuntuMono Nerd Font",
 -- })
 
+config.font = wezterm.font({
+	family = "0xProto",
+})
+
 config.font_size = 12
-config.line_height = 1.3
+config.line_height = 1.4
 -- Make the window transparent
-config.window_background_opacity = 0.8
-config.macos_window_background_blur = 20
+config.window_background_opacity = 0.75
+config.macos_window_background_blur = 30
 
 -- Blur the background (if your OS supports it)
 -- config.window_background_blur = 20
