@@ -9,7 +9,7 @@ config.initial_rows = 30
 config.initial_cols = 120
 
 -- For example, changing the color scheme:
-config.color_scheme = "Catppuccin Mocha"
+config.color_scheme = "tokyonight-storm"
 config.enable_tab_bar = false
 
 --
@@ -28,11 +28,11 @@ config.enable_tab_bar = false
 -- })
 
 config.font = wezterm.font({
-	family = "0xProto",
+	family = "Geist Mono",
 })
 
 config.font_size = 12
-config.line_height = 1.4
+config.line_height = 1.35
 -- Make the window transparent
 config.window_background_opacity = 0.75
 config.macos_window_background_blur = 30
