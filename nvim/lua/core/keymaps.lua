@@ -1,1 +1,1 @@
--- vim.keymap.set("n", "<leader>f", "<CMD>Oil<CR>")
+vim.keymap.set("n", "<leader>nh", "<CMD>nohlsearch<CR>")

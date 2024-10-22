@@ -12,33 +12,16 @@ config.initial_cols = 120
 config.color_scheme = "tokyonight-storm"
 config.enable_tab_bar = false
 
---
--- config.font = wezterm.font({
--- 	family = "Maple Mono NF",
--- 	harfbuzz_features = { "ss01", "ss03", "zero" },
--- })
-
--- config.font = wezterm.font({
--- 	family = "JetBrainsMono Nerd Font",
--- 	harfbuzz_features = { "ss02" },
--- })
-
--- config.font = wezterm.font({
--- 	family = "UbuntuMono Nerd Font",
--- })
-
 config.font = wezterm.font({
-	family = "Geist Mono",
+	family = "Maple Mono NF",
+	harfbuzz_features = { "ss01", "ss03", "zero" },
 })
 
-config.font_size = 12
-config.line_height = 1.35
+config.font_size = 13
+config.line_height = 1.3
 -- Make the window transparent
-config.window_background_opacity = 0.75
+config.window_background_opacity = 0.85
 config.macos_window_background_blur = 30
-
--- Blur the background (if your OS supports it)
--- config.window_background_blur = 20
 
 -- and finally, return the configuration to wezterm
 return config
