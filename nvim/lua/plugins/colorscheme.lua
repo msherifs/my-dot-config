@@ -1,17 +1,12 @@
 return {
-	"folke/tokyonight.nvim",
+	"EdenEast/nightfox.nvim",
 	lazy = false,
 	priority = 1000,
 	opts = {
-		style = "storm",
 		transparent = true,
-		styles = {
-			sidebars = "transparent",
-			floats = "transparent",
-		},
 	},
 	config = function(_, opts)
-		require("tokyonight").setup(opts)
-		vim.cmd("colorscheme tokyonight")
+		require("nightfox").setup({ options = opts })
+		vim.cmd("colorscheme nordfox")
 	end,
 }
