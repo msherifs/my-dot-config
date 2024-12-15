@@ -1,10 +1,9 @@
 return {
-	"rose-pine/neovim",
-	name = "rose-pine",
+	"EdenEast/nightfox.nvim",
+	name = "nightfox",
 	lazy = false,
 	priority = 1000,
 	config = function(_, opts)
-		require("rose-pine").setup({})
-		vim.cmd("colorscheme rose-pine")
+		vim.cmd("colorscheme dayfox")
 	end,
 }

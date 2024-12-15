@@ -9,7 +9,7 @@ config.initial_rows = 30
 config.initial_cols = 120
 
 -- For example, changing the color scheme:
-config.color_scheme = "rose-pine"
+config.color_scheme = "dayfox"
 config.enable_tab_bar = false
 
 config.font = wezterm.font({
