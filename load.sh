@@ -8,4 +8,5 @@ cp -r ~/.config/wezterm/ ./wezterm/
 cp ~/.tmux.conf .
 cp ~/.config/starship.toml .
 cp ~/.config/kitty/kitty.conf ./kitty/
+cp ~/.config/ghostty/config ./ghostty/
 
