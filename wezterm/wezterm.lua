@@ -17,8 +17,8 @@ config.font = wezterm.font({
 	harfbuzz_features = { "ss01", "ss03", "zero" },
 })
 
-config.font_size = 12
-config.line_height = 1.4
+config.font_size = 11
+config.line_height = 1.3
 
 -- Make the window transparent
 -- config.window_background_opacity = 0.9

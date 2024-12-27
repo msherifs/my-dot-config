@@ -13,6 +13,11 @@ $character"""
 [directory]
 style = "blue"
 
+[character]
+success_symbol = "[](purple)"
+error_symbol = "[](red)"
+vimcmd_symbol = "[](green)"
+
 [git_branch]
 format = "[$branch]($style)"
 style = "bright-black"
@@ -39,12 +44,3 @@ style = "yellow"
 [python]
 format = "[$virtualenv]($style) "
 style = "bright-black"
-[character]
-disabled = false
-success_symbol = '[ ](bold fg:color_green)'
-error_symbol = '[ ](bold fg:color_red)'
-vimcmd_symbol = '[ ](bold fg:color_green)'
-vimcmd_replace_one_symbol = '[ ](bold fg:color_purple)'
-vimcmd_replace_symbol = '[ ](bold fg:color_purple)'
-vimcmd_visual_symbol = '[ ](bold fg:color_yellow)'
-
