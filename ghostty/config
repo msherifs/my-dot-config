@@ -1,2 +1,8 @@
-font-family = "Maple Mono NF"
-theme = "dayfox"
+font-family = "Iosevka"
+font-size = 14
+font-feature = "zero"
+theme = "tokyonight"
+adjust-cell-height = 25%
+adjust-cursor-height = 25%
+cursor-style = underline
+cursor-style-blink = false

@@ -1,9 +1,9 @@
 return {
-	"EdenEast/nightfox.nvim",
-	name = "nightfox",
+	"folke/tokyonight.nvim",
 	lazy = false,
 	priority = 1000,
-	config = function(_, opts)
-		vim.cmd("colorscheme dayfox")
+	opts = {},
+	config = function(_, _opts)
+		vim.cmd("colorscheme tokyonight-night")
 	end,
 }
