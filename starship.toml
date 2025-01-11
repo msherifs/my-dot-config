@@ -7,6 +7,14 @@ $deno
 $character
 """
 
+right_format = """$git_status"""
+
+[git_status]
+format = '[${modified}${untracked}]($style)'
+modified = '  ${count}'
+untracked = '?${count}'
+style = 'bold red'
+
 [aws]
 symbol = "  "
 
