@@ -16,20 +16,20 @@
   },
   "vim_mode": true,
   "ui_font_size": 11,
-  "buffer_font_size": 13,
+  "buffer_font_size": 11,
   "theme": {
     "mode": "system",
-    "light": "Tokyo Night",
+    "light": "Catppuccin Frappé",
     "dark": "Rosé Pine Dawn"
   },
-  "buffer_font_family": "Iosevka",
+  "buffer_font_family": "CommitMonoMS",
   "buffer_line_height": {
-    "custom": 1.6
+    "custom": 1.65
   },
   "relative_line_numbers": true,
   "terminal": {
-    "font_size": 12,
-    "font_family": "Iosevka Nerd Font",
+    "font_size": 11,
+    "font_family": "CommitMono Nerd Font",
     "line_height": {
       "custom": 1.5
     }

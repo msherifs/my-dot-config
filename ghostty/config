@@ -1,7 +1,7 @@
-font-family = "Iosevka"
-font-size = 14
+font-family = "CommitMonoMS"
+font-size = 13
 font-feature = "zero"
-theme = "tokyonight"
+theme = "SpaceGray Eighties"
 adjust-cell-height = 25%
 adjust-cursor-height = 25%
 cursor-style = underline
