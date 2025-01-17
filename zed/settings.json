@@ -19,19 +19,32 @@
   "buffer_font_size": 12,
   "theme": {
     "mode": "system",
-    "light": "Catppuccin Frappé",
+    "light": "Fleet Dark",
     "dark": "Rosé Pine Dawn"
   },
-  "buffer_font_family": "CommitMonoMS",
+  "buffer_font_family": "Maple Mono NF", l
+  "buffer_font_features": {
+    "zero": true,
+    "ss05": true,
+    "cv02": true,
+    "cv04": true
+  },
+  // \w \n i l a @ $ & % Q => ->
   "buffer_line_height": {
-    "custom": 1.6
+    "custom": 1.5
   },
   "relative_line_numbers": true,
   "terminal": {
     "font_size": 11,
-    "font_family": "CommitMono Nerd Font",
+    "font_family": "Maple Mono NF",
     "line_height": {
-      "custom": 1.5
+      "custom": 1.35
+    },
+    "font_features": {
+      "zero": true,
+      "ss05": true,
+      "cv02": true,
+      "cv04": true
     }
   },
   "features": {
