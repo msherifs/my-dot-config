@@ -22,7 +22,7 @@
     "light": "Fleet Dark",
     "dark": "Rosé Pine Dawn"
   },
-  "buffer_font_family": "Maple Mono NF", l
+  "buffer_font_family": "Maple Mono NF",
   "buffer_font_features": {
     "zero": true,
     "ss05": true,
