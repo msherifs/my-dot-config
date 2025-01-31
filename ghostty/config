@@ -1,11 +1,11 @@
-font-family = "Maple Mono NF"
+font-family = "CommitMonoMS"
 font-size = 12
-font-feature = "zero"
-font-feature = "ss05"
-font-feature = "cv02"
-font-feature = "cv04"
+# font-feature = "zero"
+#font-feature = "ss05"
+#font-feature = "cv02"
+#font-feature = "cv04"
 
-theme = "catppuccin-frappe"
+theme = "0x96f"
 adjust-cell-height = 20%
 adjust-cursor-height = 20%
 cursor-style = underline

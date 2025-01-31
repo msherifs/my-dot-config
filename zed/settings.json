@@ -19,16 +19,16 @@
   "buffer_font_size": 12,
   "theme": {
     "mode": "system",
-    "light": "Fleet Dark",
+    "light": "0x96f Theme",
     "dark": "Rosé Pine Dawn"
   },
-  "buffer_font_family": "Maple Mono NF",
-  "buffer_font_features": {
-    "zero": true,
-    "ss05": true,
-    "cv02": true,
-    "cv04": true
-  },
+  "buffer_font_family": "CommitMonoMS",
+  // "buffer_font_features": {
+  //   "zero": true,
+  //   "ss05": true,
+  //   "cv02": true,
+  //   "cv04": true
+  // },
   // \w \n i l a @ $ & % Q => ->
   "buffer_line_height": {
     "custom": 1.5
@@ -36,16 +36,16 @@
   "relative_line_numbers": true,
   "terminal": {
     "font_size": 11,
-    "font_family": "Maple Mono NF",
+    "font_family": "CommitMono Nerd Font",
     "line_height": {
       "custom": 1.35
     },
-    "font_features": {
-      "zero": true,
-      "ss05": true,
-      "cv02": true,
-      "cv04": true
-    }
+    // "font_features": {
+    //   "zero": true,
+    //   "ss05": true,
+    //   "cv02": true,
+    //   "cv04": true
+    // }
   },
   "features": {
     "inline_completion_provider": "supermaven"
