@@ -1,12 +1,12 @@
-font-family = "CommitMonoMS"
-font-size = 12
-# font-feature = "zero"
-#font-feature = "ss05"
-#font-feature = "cv02"
-#font-feature = "cv04"
+font-family = "Maple Mono NF"
+font-size = 13
+font-feature = "zero"
+font-feature = "ss05"
+font-feature = "cv02"
+font-feature = "cv04"
 
-theme = "0x96f"
-adjust-cell-height = 20%
-adjust-cursor-height = 20%
+theme = "tokyonight"
+adjust-cell-height = 10%
+adjust-cursor-height = 10%
 cursor-style = underline
 cursor-style-blink = false

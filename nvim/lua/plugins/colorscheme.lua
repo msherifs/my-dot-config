@@ -1,8 +1,8 @@
 return {
-	"catppuccin/nvim",
-	name = "catppuccin",
+	"folke/tokyonight.nvim",
+	lazy = false,
 	priority = 1000,
-	config = function(_, _opts)
-		vim.cmd("colorscheme catppuccin-frappe")
+	config = function()
+		vim.cmd("colorscheme tokyonight-night")
 	end,
 }
