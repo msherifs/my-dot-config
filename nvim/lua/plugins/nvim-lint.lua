@@ -4,9 +4,17 @@ return {
 	config = function()
 		local lint = require("lint")
 
+		local function detect_linter()
+		  if vim.fn.filereadable(vim.fn.getcwd() .. "/eslint.json") == 1 then
+		    return { "eslint" }
+		  end
+		
+		  return { }
+		end
+		
 		lint.linters_by_ft = {
-			javascript = { "biomejs" },
-			typescript = { "biomejs" },
+		  javascript = detect_linter(),
+		  typescript = detect_linter(),
 		}
 
 		local lint_augroup = vim.api.nvim_create_augroup("lint", { clear = true })

@@ -2,7 +2,6 @@ return {
 	"neovim/nvim-lspconfig",
 	event = { "BufReadPre", "BufNewFile" },
 	dependencies = {
-		"hrsh7th/cmp-nvim-lsp",
 		{ "antosha417/nvim-lsp-file-operations", config = true },
 		{ "folke/neodev.nvim", opts = {} },
 	},
@@ -14,8 +13,6 @@ return {
 		local mason_lspconfig = require("mason-lspconfig")
 
 		-- import cmp-nvim-lsp plugin
-		local cmp_nvim_lsp = require("cmp_nvim_lsp")
-
 		local keymap = vim.keymap -- for conciseness
 
 		vim.api.nvim_create_autocmd("LspAttach", {
@@ -68,7 +65,8 @@ return {
 		})
 
 		-- used to enable autocompletion (assign to every lsp server config)
-		local capabilities = cmp_nvim_lsp.default_capabilities()
+		-- local capabilities = cmp_nvim_lsp.default_capabilities()
+		local capabilities = require("blink.cmp").get_lsp_capabilities()
 
 		-- Change the Diagnostic symbols in the sign column (gutter)
 		-- (not in youtube nvim video)
@@ -87,11 +85,15 @@ return {
 			end,
 			["lua_ls"] = function()
 				lspconfig["denols"].setup({
+					capabilities = capabilities,
 					root_dir = lspconfig.util.root_pattern("deno.json", "deno.jsonc"),
+					single_file_support = false,
 				})
 
 				lspconfig["ts_ls"].setup({
+					capabilities = capabilities,
 					root_dir = lspconfig.util.root_pattern("package.json"),
+					single_file_support = false,
 				})
 
 				-- configure lua server (with special settings)

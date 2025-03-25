@@ -1,11 +1,13 @@
 font-family = "Maple Mono NF"
-font-size = 13
+font-size = 14
 font-feature = "zero"
+font-feature = "ss03"
 font-feature = "ss05"
+font-feature = "ss08"
 font-feature = "cv02"
 font-feature = "cv04"
 
-theme = "tokyonight"
+theme = "GitHub-Dark-Dimmed"
 adjust-cell-height = 10%
 adjust-cursor-height = 10%
 cursor-style = underline
