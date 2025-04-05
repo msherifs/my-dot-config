@@ -8,5 +8,7 @@ cp starship.toml ~/.config/starship.toml
 cp ./ghostty/config ~/.config/ghostty/config
 cp ./zed/settings.json ~/.config/zed/settings.json
 cp -r ./zed/themes/ ~/.config/zed/themes/
+cp -r ./fish/ ~/.config/fish/
+
 
 
