@@ -7,8 +7,12 @@ font-feature = "ss08"
 font-feature = "cv02"
 font-feature = "cv04"
 
-theme = "GitHub-Dark-Dimmed"
-adjust-cell-height = 10%
-adjust-cursor-height = 10%
-cursor-style = underline
-cursor-style-blink = false
+theme = "dark:tokyonight_night,light:tokyonight-day"
+
+adjust-cell-height = 15%
+adjust-cursor-height = 15%
+shell-integration-features = no-cursor
+cursor-style = block
+cursor-style-blink = true
+background-opacity = 0.9
+background-blur = true
