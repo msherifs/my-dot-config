@@ -1,11 +1,21 @@
 return {
-	"projekt0n/github-nvim-theme",
-	name = "github-theme",
-	lazy = false, -- make sure we load this during startup if it is your main colorscheme
-	priority = 1000, -- make sure to load this before all the other start plugins
-	config = function()
-		require("github-theme").setup({})
+	"folke/tokyonight.nvim",
+	lazy = false,
+	priority = 1000,
+	opts = {
+		style = "night",
+		transparent = true,
+		terminal_colors = true,
+		styles = {
+			comments = { italic = true },
+			keywords = { italic = true },
+			sidebars = "transparent", -- Make sidebars like NvimTree transparent
+			floats = "transparent", -- Make floating windows like LSP hints transparent
+		},
+	},
+	config = function(_, opts)
+		require("tokyonight").setup(opts)
 
-		vim.cmd("colorscheme github_dark")
+		vim.cmd.colorscheme("tokyonight")
 	end,
 }
