@@ -21,7 +21,7 @@ set --erase _asdf_shims
 asdf completion fish > ~/.config/fish/completions/asdf.fish
 
 # pnpm
-set -x PNPM_HOME "/Users/msherifs/Library/pnpm"
+set -x PNPM_HOME "$HOME/Library/pnpm"
 fish_add_path $PNPM_HOME
 # pnpm end
 
