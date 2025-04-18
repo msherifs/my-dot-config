@@ -33,8 +33,10 @@ if test -z ~/.config/fish/functions/alfan.fish
     source ~/.config/fish/functions/alfan.fish
 end
 
-if test -z ~/.config/fish/secrets.fish
-    source ~/.config/fish/secrets.fish
+if test -f "~/.config/fish/secrets.fish"
+    source "~/.config/fish/secrets.fish"
 end
 
 set --global hydro_multiline true
+
+fnm env --use-on-cd --shell fish | source
