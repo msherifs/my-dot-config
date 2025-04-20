@@ -21,8 +21,10 @@ set --erase _asdf_shims
 asdf completion fish > ~/.config/fish/completions/asdf.fish
 
 # pnpm
-set -x PNPM_HOME "$HOME/Library/pnpm"
-fish_add_path $PNPM_HOME
+set -gx PNPM_HOME "~/Library/pnpm"
+if not string match -q -- $PNPM_HOME $PATH
+  set -gx PATH "$PNPM_HOME" $PATH
+end
 # pnpm end
 
 # bun
@@ -33,8 +35,8 @@ if test -z ~/.config/fish/functions/alfan.fish
     source ~/.config/fish/functions/alfan.fish
 end
 
-if test -f "~/.config/fish/secrets.fish"
-    source "~/.config/fish/secrets.fish"
+if test -f ~/.config/fish/secrets.fish
+    source ~/.config/fish/secrets.fish
 end
 
 set --global hydro_multiline true
