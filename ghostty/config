@@ -1,16 +1,16 @@
-font-family = "Maple Mono NF"
+font-family = "Lilex"
 font-size = 14
-font-feature = "zero"
-font-feature = "ss03"
-font-feature = "ss05"
-font-feature = "ss08"
-font-feature = "cv02"
-font-feature = "cv04"
+#font-feature = "zero"
+#font-feature = "ss03"
+#font-feature = "ss05"
+#font-feature = "ss08"
+#font-feature = "cv02"
+#font-feature = "cv04"
 
 #theme = "gruvbox-material"
 
-adjust-cell-height = 20%
-adjust-cursor-height = 20%
+adjust-cell-height = 15%
+adjust-cursor-height = 15%
 shell-integration-features = no-cursor
 cursor-style = block
 cursor-style-blink = true
