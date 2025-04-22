@@ -12,9 +12,7 @@ function alfan_rds_start_session
     set -l creds_output (aws sts get-session-token \
         --serial-number $ARN_OF_MFA_DEVICE \
         --token-code $MFA_TOKEN \
-        --profile alfan \
-        --query 'Credentials.[AccessKeyId,SecretAccessKey,SessionToken]' \
-        --output text)
+        --profile alfan)
 
     # Check if the aws command was successful
     if test $status -ne 0
@@ -28,21 +26,14 @@ function alfan_rds_start_session
         return 1
     end
 
-    # Split the output into parts (tab-separated)
-    set -l cred_parts (string split "\t" -- $creds_output)
+    set -gx AWS_ACCESS_KEY_ID     (printf '%s' "$creds_output" | jq -r '.Credentials.AccessKeyId')
+    set -gx AWS_SECRET_ACCESS_KEY (printf '%s' "$creds_output" | jq -r '.Credentials.SecretAccessKey')
+    set -gx AWS_SESSION_TOKEN     (printf '%s' "$creds_output" | jq -r '.Credentials.SessionToken')
 
-    # Check if we got the expected number of parts
-    if test (count $cred_parts) -ne 3
-        echo "Error: Failed to parse AWS credentials. Expected 3 parts, got "(count $cred_parts)"." >&2
-        echo "Output was: $creds_output" >&2
+    if test (count $AWS_SESSION_TOKEN) -eq 0
+        echo "Error: could not parse credentials" >&2
         return 1
     end
-
-    # Export the credentials as environment variables for the current session
-    # Use -gx to make them available to subsequent commands (like aws ssm)
-    set -gx AWS_ACCESS_KEY_ID $cred_parts[1]
-    set -gx AWS_SECRET_ACCESS_KEY $cred_parts[2]
-    set -gx AWS_SESSION_TOKEN $cred_parts[3]
 
     echo "AWS session token obtained and exported."
 
