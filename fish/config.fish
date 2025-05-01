@@ -21,7 +21,7 @@ set --erase _asdf_shims
 asdf completion fish > ~/.config/fish/completions/asdf.fish
 
 # pnpm
-set -gx PNPM_HOME "~/Library/pnpm"
+set -gx PNPM_HOME "$HOME/Library/pnpm"
 if not string match -q -- $PNPM_HOME $PATH
   set -gx PATH "$PNPM_HOME" $PATH
 end
