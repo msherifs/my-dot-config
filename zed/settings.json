@@ -8,40 +8,42 @@
 // command palette
 {
   "vim_mode": true,
-  "vim": {
-    "cursor_shape": {
-      "normal": "hollow",
-      "insert": "underline",
-      "visual": "hollow",
-      "replace": "hollow"
-    }
-  },
+  "ui_font_family": "IBM Plex Sans",
   "ui_font_size": 10,
   "buffer_font_size": 12,
-  "theme": "Github Dark Dimmed",
-  "buffer_font_family": "Maple Mono NF",
+  "theme": "Kanso Ink",
+  "buffer_font_family": "Monaspace Neon Var",
   "buffer_font_features": {
-    "zero": true,
+    "ss01": true,
+    "ss02": true,
     "ss03": true,
+    "ss04": true,
     "ss05": true,
-    "ss08": true,
-    "cv02": true
+    "ss06": true,
+    "ss09": true
   },
+  // "buffer_font_features": {
+  //   "zero": true,
+  //   "ss03": true,
+  //   "ss05": true,
+  //   "ss08": true,
+  //   "cv02": true
+  // },
   // \w \n i l a F f i @ $ & % Q => -> == =>>|> [todo]
   "buffer_line_height": {
-    "custom": 1.55
+    "custom": 1.5
   },
   "relative_line_numbers": true,
   "terminal": {
     "font_size": 11,
-    "font_family": "Maple Mono NF",
+    "font_family": "MonaspiceNe Nerd Font",
     "line_height": {
       "custom": 1.4
     },
     "dock": "right"
   },
   "features": {
-    "edit_prediction_provider": "zed"
+    "edit_prediction_provider": "copilot"
   },
   "format_on_save": "off",
   "formatter": null,
@@ -61,41 +63,37 @@
       "enabled": true
     }
   },
-  "assistant": {
+  "agent": {
+    "default_profile": "write",
     "profiles": {
-      "agent": {
-        "name": "Agent",
+      "write": {
+        "name": "Write",
         "tools": {
-          "thinking": false,
-          "terminal": true,
-          "symbol_info": true,
-          "rename": true,
-          "grep": true,
-          "read_file": true,
-          "path_search": true,
-          "open": true,
-          "now": true,
-          "move_path": true,
-          "list_directory": true,
+          "copy_path": true,
+          "create_directory": true,
+          "create_file": true,
+          "delete_path": true,
+          "diagnostics": true,
           "edit_file": true,
           "fetch": true,
-          "diagnostics": true,
-          "delete_path": true,
-          "create_file": true,
-          "create_directory": true,
-          "copy_path": true,
-          "code_symbols": true,
-          "code_actions": true,
-          "batch_tool": true
+          "list_directory": true,
+          "move_path": true,
+          "now": true,
+          "find_path": true,
+          "read_file": true,
+          "grep": true,
+          "terminal": true,
+          "thinking": true,
+          "web_search": true,
+          "open": true
         },
         "enable_all_context_servers": true,
         "context_servers": {}
       }
     },
-    "default_profile": "agent",
     "default_model": {
-      "provider": "zed.dev",
-      "model": "claude-3-7-sonnet-latest"
+      "provider": "copilot_chat",
+      "model": "gpt-4.1"
     },
     "version": "2"
   }
