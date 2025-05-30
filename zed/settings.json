@@ -8,45 +8,36 @@
 // command palette
 {
   "vim_mode": true,
-  "ui_font_family": "IBM Plex Sans",
+  "ui_font_family": "Maple Mono Ms NF",
   "ui_font_size": 10,
   "buffer_font_size": 12,
-  "theme": "Kanso Ink",
-  "buffer_font_family": "Monaspace Neon Var",
-  "buffer_font_features": {
-    "ss01": true,
-    "ss02": true,
-    "ss03": true,
-    "ss04": true,
-    "ss05": true,
-    "ss06": true,
-    "ss09": true
-  },
-  // "buffer_font_features": {
-  //   "zero": true,
-  //   "ss03": true,
-  //   "ss05": true,
-  //   "ss08": true,
-  //   "cv02": true
-  // },
-  // \w \n i l a F f i @ $ & % Q => -> == =>>|> [todo]
+  "theme": "Kanso Pearl",
+  "buffer_font_family": "Maple Mono Ms NF",
+  // \w \n i l a F f i @ $ & % Q R r => -> == =>>|> [TODO]
   "buffer_line_height": {
-    "custom": 1.5
+    "custom": 1.6
   },
   "relative_line_numbers": true,
   "terminal": {
     "font_size": 11,
-    "font_family": "MonaspiceNe Nerd Font",
+    "font_family": "Maple Mono Ms NF",
     "line_height": {
-      "custom": 1.4
+      "custom": 1.5
     },
     "dock": "right"
   },
   "features": {
-    "edit_prediction_provider": "copilot"
+    "edit_prediction_provider": "zed"
   },
   "format_on_save": "off",
   "formatter": null,
+  "lsp": {
+    "biome": {
+      "settings": {
+        "require_config_file": true
+      }
+    }
+  },
   "autosave": "on_focus_change",
   "git": {
     "git_gutter": "tracked_files",
