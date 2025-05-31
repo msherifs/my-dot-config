@@ -10,12 +10,12 @@
   "vim_mode": true,
   "ui_font_family": "Maple Mono Ms NF",
   "ui_font_size": 10,
-  "buffer_font_size": 12,
-  "theme": "Kanso Pearl",
+  "buffer_font_size": 13,
+  "theme": "Catppuccin Frappé",
   "buffer_font_family": "Maple Mono Ms NF",
-  // \w \n i l a F f i @ $ & % Q R r => -> == =>>|> [TODO]
+  // \w \n i l a F f i @ $ & % Q R r => -> == =>>|> [TODO] {} ( )
   "buffer_line_height": {
-    "custom": 1.6
+    "custom": 1.5
   },
   "relative_line_numbers": true,
   "terminal": {

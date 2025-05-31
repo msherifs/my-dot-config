@@ -1,15 +1,15 @@
 return {
-	"webhooked/kanso.nvim",
-	lazy = false,
+	"catppuccin/nvim",
+	name = "catppuccin",
 	priority = 1000,
 	config = function()
-		require("kanso").setup({
-			theme = "zen",
+		require("catppuccin").setup({
+			flavor = "frappe",
 		})
 	end,
 
 	-- optionally set the colorscheme within lazy config
 	init = function()
-		vim.cmd("colorscheme kanso")
+		vim.cmd("colorscheme catppuccin-frappe")
 	end,
 }

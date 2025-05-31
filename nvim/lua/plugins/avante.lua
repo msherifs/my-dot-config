@@ -17,8 +17,7 @@ return {
 		-- for example
 		provider = "copilot",
 		copilot = {
-			model = "claude-3.7-sonnet-thought",
-			--			model = "claude-3.7-sonnet",
+			model = "claude-sonnet-4",
 			temperature = 1,
 			max_tokens = 20000,
 		},
