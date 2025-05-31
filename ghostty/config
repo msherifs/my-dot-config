@@ -1,38 +1,13 @@
 font-family = "Maple Mono Ms NF"
-font-size = 13
+font-size = 14
 
-#theme = rose-pine-moon
+theme = catppuccin-frappe
 
-adjust-cell-height = 25%
-adjust-cursor-height = 2%
+adjust-cell-height = 20%
+adjust-cursor-height = 20%
 shell-integration-features = no-cursor
 cursor-style = block
 cursor-style-blink = true
-#background-opacity = 0.85
-#background-blur = true
 window-width = 140
 window-height = 37
 
-palette = 0=#14171d
-palette = 1=#c4746e
-palette = 2=#8a9a7b
-palette = 3=#c4b28a
-palette = 4=#8ba4b0
-palette = 5=#a292a3
-palette = 6=#8ea4a2
-palette = 7=#c8c093
-palette = 8=#a4a7a4
-palette = 9=#e46876
-palette = 10=#87a987
-palette = 11=#e6c384
-palette = 12=#7fb4ca
-palette = 13=#938aa9
-palette = 14=#7aa89f
-palette = 15=#c5c9c7
-
-background = #14171d
-foreground = #c5c9c7
-cursor-color = #c5c9c7
-selection-background = #393B42
-selection-foreground = #c5c9c7
-keybind = shift+enter=text:\n
