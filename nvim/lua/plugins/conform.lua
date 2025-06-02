@@ -29,7 +29,7 @@ return {
 				javascript = js_ts_formatters,
 				typescript = js_ts_formatters,
 				lua = { "stylua" },
-				go = { "gofmt" },
+				go = { "goimports", "golines", "gofmt" },
 				elixir = { "mix" },
 			},
 			format_on_save = {
