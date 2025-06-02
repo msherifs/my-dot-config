@@ -1,15 +1,11 @@
 return {
-	"catppuccin/nvim",
-	name = "catppuccin",
+	"folke/tokyonight.nvim",
+	lazy = false,
 	priority = 1000,
-	config = function()
-		require("catppuccin").setup({
-			flavor = "frappe",
-		})
-	end,
+	opts = {},
 
 	-- optionally set the colorscheme within lazy config
 	init = function()
-		vim.cmd("colorscheme catppuccin-frappe")
+		vim.cmd("colorscheme tokyonight-storm")
 	end,
 }
