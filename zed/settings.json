@@ -11,7 +11,7 @@
   "ui_font_family": "Maple Mono Ms NF",
   "ui_font_size": 10,
   "buffer_font_size": 13,
-  "theme": "Tokyo Night Storm",
+  "theme": "Tokyo Night Light",
   "buffer_font_family": "Maple Mono Ms NF",
   // \w \n i l a F f i @ $ & % Q R r => -> == =>>|> [TODO] {} ( )
   "buffer_line_height": {
@@ -19,12 +19,11 @@
   },
   "relative_line_numbers": true,
   "terminal": {
-    "font_size": 11,
+    "font_size": 12,
     "font_family": "Maple Mono Ms NF",
     "line_height": {
       "custom": 1.5
     },
-    "dock": "right"
   },
   "features": {
     "edit_prediction_provider": "zed"
