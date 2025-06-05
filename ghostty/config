@@ -11,3 +11,4 @@ cursor-style-blink = true
 window-width = 140
 window-height = 37
 
+keybind = shift+enter=text:\n
