@@ -16,10 +16,14 @@ return {
 		-- add any opts here
 		-- for example
 		provider = "copilot",
-		copilot = {
-			model = "claude-sonnet-4",
-			temperature = 1,
-			max_tokens = 20000,
+		providers = {
+			copilot = {
+				model = "claude-sonnet-4",
+				extra_request_body = {
+					temperature = 1,
+					max_tokens = 20000,
+				},
+			},
 		},
 	},
 }

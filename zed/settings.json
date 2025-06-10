@@ -8,22 +8,25 @@
 // command palette
 {
   "vim_mode": true,
-  "ui_font_family": "Maple Mono Ms NF",
+  "ui_font_family": "Maple Mono NF",
   "ui_font_size": 10,
   "buffer_font_size": 13,
-  "theme": "Tokyo Night Light",
-  "buffer_font_family": "Maple Mono Ms NF",
+  "theme": "Tokyo Night Storm",
+  "buffer_font_family": "Maple Mono NF",
+  "buffer_font_features": {
+    "ss15": true
+  },
   // \w \n i l a F f i @ $ & % Q R r => -> == =>>|> [TODO] {} ( )
   "buffer_line_height": {
-    "custom": 1.5
+    "custom": 1.6
   },
   "relative_line_numbers": true,
   "terminal": {
     "font_size": 12,
-    "font_family": "Maple Mono Ms NF",
+    "font_family": "Maple Mono NF",
     "line_height": {
-      "custom": 1.5
-    },
+      "custom": 1.6
+    }
   },
   "features": {
     "edit_prediction_provider": "zed"
