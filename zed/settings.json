@@ -8,22 +8,22 @@
 // command palette
 {
   "vim_mode": true,
-  "ui_font_family": "Maple Mono NF",
+  "ui_font_family": "CommitMonoMS",
   "ui_font_size": 10,
   "buffer_font_size": 13,
-  "theme": "Tokyo Night Storm",
-  "buffer_font_family": "Maple Mono NF",
+  "theme": "Dawnfox",
+  "buffer_font_family": "JetBrains Mono",
   "buffer_font_features": {
-    "ss15": true
+    "ss02": true
   },
-  // \w \n i l a F f i @ $ & % Q R r => -> == =>>|> [TODO] {} ( )
+  // \w \n i a g l a F f i @ $ & % Q R 0 r => -> == =>>|> [TODO] {} ( )
   "buffer_line_height": {
     "custom": 1.6
   },
   "relative_line_numbers": true,
   "terminal": {
     "font_size": 12,
-    "font_family": "Maple Mono NF",
+    "font_family": "JetBrainsMono Nerd Font",
     "line_height": {
       "custom": 1.6
     }
