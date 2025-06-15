@@ -4,14 +4,6 @@ return {
 		opts = {},
 	},
 	{
-		"mason-org/mason-lspconfig.nvim",
-		dependencies = {
-			"mason-org/mason.nvim",
-			"neovim/nvim-lspconfig",
-		},
-		event = { "VeryLazy", "BufReadPre", "BufNewFile" },
-	},
-	{
 		"folke/lazydev.nvim",
 		ft = "lua", -- only load on lua files
 		opts = {
