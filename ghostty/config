@@ -1,11 +1,10 @@
-font-family = "JetBrains Mono"
+font-family = "CommitMonoMS"
 font-size = 14
-font-feature = 'ss02'
 
 theme = nordfox
 
-adjust-cell-height = 20%
-adjust-cursor-height = 20%
+adjust-cell-height = 25%
+adjust-cursor-height = 25%
 shell-integration-features = no-cursor
 cursor-style = block
 cursor-style-blink = true
