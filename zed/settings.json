@@ -8,24 +8,24 @@
 // command palette
 {
   "vim_mode": true,
-  "ui_font_family": "CommitMonoMS",
-  "ui_font_size": 10,
+  "ui_font_family": "CommitMonoCondensedMS",
+  "ui_font_size": 11,
   "buffer_font_size": 13,
   "theme": "Dawnfox",
-  "buffer_font_family": "JetBrains Mono",
-  "buffer_font_features": {
-    "ss02": true
-  },
+  "buffer_font_family": "CommitMonoMS",
+  // "buffer_font_features": {
+  //   "ss02": true
+  // },
   // \w \n i a g l a F f i @ $ & % Q R 0 r => -> == =>>|> [TODO] {} ( )
   "buffer_line_height": {
     "custom": 1.6
   },
   "relative_line_numbers": true,
   "terminal": {
-    "font_size": 12,
-    "font_family": "JetBrainsMono Nerd Font",
+    "font_size": 13,
+    "font_family": "MonaspiceXe Nerd Font",
     "line_height": {
-      "custom": 1.6
+      "custom": 1.5
     }
   },
   "features": {
