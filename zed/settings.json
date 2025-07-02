@@ -11,19 +11,16 @@
   "ui_font_family": "CommitMonoCondensedMS",
   "ui_font_size": 11,
   "buffer_font_size": 13,
-  "theme": "Dawnfox",
-  "buffer_font_family": "CommitMonoMS",
-  // "buffer_font_features": {
-  //   "ss02": true
-  // },
+  "theme": "Nordfox",
+  "buffer_font_family": "Maple Mono Ms NF",
   // \w \n i a g l a F f i @ $ & % Q R 0 r => -> == =>>|> [TODO] {} ( )
   "buffer_line_height": {
     "custom": 1.6
   },
   "relative_line_numbers": true,
   "terminal": {
-    "font_size": 13,
-    "font_family": "MonaspiceXe Nerd Font",
+    "font_size": 12,
+    "font_family": "Maple Mono Ms NF",
     "line_height": {
       "custom": 1.5
     }
