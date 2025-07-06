@@ -10,6 +10,6 @@ return {
 
 	-- optionally set the colorscheme within lazy config
 	init = function()
-		vim.cmd("colorscheme nordfox")
+		vim.cmd("colorscheme carbonfox")
 	end,
 }
