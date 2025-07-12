@@ -10,12 +10,15 @@
   "vim_mode": true,
   "ui_font_family": "CommitMonoCondensedMS",
   "ui_font_size": 11,
-  "buffer_font_size": 13,
+  "buffer_font_size": 14,
   "theme": "Carbonfox",
-  "buffer_font_family": "Maple Mono Ms NF",
+  "buffer_font_family": "Iosevka",
+  "buffer_font_features": {
+    "ss12": true
+  },
   // \w \n i a g l a F f i @ $ & % Q R 0 r => -> == =>>|> [TODO] {} ( )
   "buffer_line_height": {
-    "custom": 1.6
+    "custom": 1.7
   },
   "relative_line_numbers": true,
   "terminal": {

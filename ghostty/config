@@ -1,7 +1,9 @@
-font-family = "Maple Mono Ms NF"
+font-family = "Iosevka"
 font-size = 14
 
 theme = carbonfox
+
+font-feature = 'ss12'
 
 adjust-cell-height = 25%
 adjust-cursor-height = 25%
