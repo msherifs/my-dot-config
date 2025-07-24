@@ -52,3 +52,6 @@ alias claude="$HOME/.claude/local/claude"
 fish_add_path /Users/msherifs/.opencode/bin
 starship init fish | source
 
+
+# opencode
+fish_add_path /Users/mohamedsherif/.opencode/bin

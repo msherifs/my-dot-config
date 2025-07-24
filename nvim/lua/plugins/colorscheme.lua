@@ -1,15 +1,13 @@
 return {
-	"EdenEast/nightfox.nvim",
+	"folke/tokyonight.nvim",
 	lazy = false,
 	priority = 1000,
 	opts = {
-		options = {
-			transparent = true, -- enable transparent background
-		},
+		transparent = true, -- enable transparent background
 	},
 
 	-- optionally set the colorscheme within lazy config
 	init = function()
-		vim.cmd("colorscheme carbonfox")
+		vim.cmd("colorscheme tokyonight-storm")
 	end,
 }

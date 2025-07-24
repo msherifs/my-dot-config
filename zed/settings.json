@@ -10,12 +10,9 @@
   "vim_mode": true,
   "ui_font_family": "CommitMonoCondensedMS",
   "ui_font_size": 11,
-  "buffer_font_size": 14,
-  "theme": "Carbonfox",
-  "buffer_font_family": "Iosevka",
-  "buffer_font_features": {
-    "ss12": true
-  },
+  "buffer_font_size": 13,
+  "theme": "Tokyo Night Storm",
+  "buffer_font_family": "CommitMonoCondensedMS",
   // \w \n i a g l a F f i @ $ & % Q R 0 r => -> == =>>|> [TODO] {} ( )
   "buffer_line_height": {
     "custom": 1.7
@@ -23,7 +20,7 @@
   "relative_line_numbers": true,
   "terminal": {
     "font_size": 12,
-    "font_family": "Maple Mono Ms NF",
+    "font_family": "Hack Nerd Font",
     "line_height": {
       "custom": 1.5
     }
@@ -88,6 +85,5 @@
       "provider": "copilot_chat",
       "model": "gpt-4.1"
     },
-    "version": "2"
   }
 }
