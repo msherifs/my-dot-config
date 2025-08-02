@@ -39,8 +39,6 @@ if test -f ~/.config/fish/secrets.fish
     source ~/.config/fish/secrets.fish
 end
 
-set --global hydro_multiline true
-
 fnm env --use-on-cd --shell fish | source
 
 # Added by OrbStack: command-line tools and integration
@@ -50,8 +48,5 @@ alias claude="$HOME/.claude/local/claude"
 
 # opencode
 fish_add_path /Users/msherifs/.opencode/bin
-starship init fish | source
 
-
-# opencode
-fish_add_path /Users/mohamedsherif/.opencode/bin
+fish_config prompt choose minimalist

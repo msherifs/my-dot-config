@@ -1,10 +1,10 @@
-font-family = "CommitMonoCherry"
+font-family = "IosevkaCherry"
 font-size = 13
 
 theme = tokyonight-storm
 
-adjust-cell-height = 35%
-adjust-cursor-height = 35%
+adjust-cell-height = 25%
+adjust-cursor-height = 25%
 shell-integration-features = no-cursor
 cursor-style = block
 cursor-style-blink = true
