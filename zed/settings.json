@@ -8,19 +8,19 @@
 // command palette
 {
   "vim_mode": true,
-  "ui_font_family": "IosevkaCherry",
+  "ui_font_family": "CommitMonoCherry",
   "ui_font_size": 11,
   "buffer_font_size": 13,
-  "theme": "Gruvbox Dark Soft",
-  "buffer_font_family": "IosevkaCherry",
+  "theme": "Kanso Pearl",
+  "buffer_font_family": "Maple Cherry Mono NF",
   // \w \n i a g l a F f i @ $ & % Q R 0 r => -> == != =>>|> [TODO] {} ( )
   "buffer_line_height": {
     "custom": 1.7
   },
   "relative_line_numbers": true,
   "terminal": {
-    "font_size": 12,
-    "font_family": "Iosevka Nerd Font",
+    "font_size": 11,
+    "font_family": "Maple Cherry Mono NF",
     "font_features": {
       "ss12": true
     }

@@ -49,4 +49,4 @@ alias claude="$HOME/.claude/local/claude"
 # opencode
 fish_add_path /Users/msherifs/.opencode/bin
 
-fish_config prompt choose minimalist
+# fish_config prompt choose minimalist
