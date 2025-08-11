@@ -49,4 +49,4 @@ alias claude="$HOME/.claude/local/claude"
 # opencode
 fish_add_path /Users/msherifs/.opencode/bin
 
-# fish_config prompt choose minimalist
+set -U tide_right_prompt_items status cmd_duration context jobs direnv bun node python rustc java php pulumi ruby go gcloud distrobox toolbox terraform aws nix_shell crystal elixir zig time
