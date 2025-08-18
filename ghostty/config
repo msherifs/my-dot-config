@@ -1,7 +1,7 @@
 font-family = "Maple Cherry Mono NF"
 font-size = 14
 
-theme = tokyonight-storm
+theme = rose-pine-moon
 
 adjust-cell-height = 15%
 adjust-cursor-height = 15%
@@ -11,7 +11,7 @@ cursor-style-blink = true
 window-width = 140
 window-height = 37
 
-background-opacity = 0.7
+background-opacity = 0.9
 background-blur = 30
 
 keybind = shift+enter=text:\n

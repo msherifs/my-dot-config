@@ -39,8 +39,6 @@ if test -f ~/.config/fish/secrets.fish
     source ~/.config/fish/secrets.fish
 end
 
-fnm env --use-on-cd --shell fish | source
-
 # Added by OrbStack: command-line tools and integration
 # This won't be added again if you remove it.
 source ~/.orbstack/shell/init2.fish 2>/dev/null || :
@@ -48,5 +46,7 @@ alias claude="$HOME/.claude/local/claude"
 
 # opencode
 fish_add_path /Users/msherifs/.opencode/bin
+
+fnm env --shell fish | source
 
 set -U tide_right_prompt_items status cmd_duration context jobs direnv bun node python rustc java php pulumi ruby go gcloud distrobox toolbox terraform aws nix_shell crystal elixir zig time
